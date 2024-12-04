@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>A Missão na Floresta Perdida</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você é um explorador em busca de um artefato antigo escondido na Floresta Perdida. Sua missão é encontrar o artefato e sair da floresta antes do pôr do sol.</p>
+            <button class="btn-proximo" data-proximo="2">Seguir pela trilha principal </button>
+            <button class="btn-proximo" data-proximo="3">Entrar por um atalho misterioso</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você encontra um mapa antigo parcialmente destruído.</p>
+            <button class="btn-proximo" data-proximo="4"> Guardar o mapa e continua.</button>
+            <button class="btn-proximo" data-proximo="5"> Tentar decifrar o mapa antes de avançar.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você encontra uma ponte velha que pode quebrar.</p>
+            <button class="btn-proximo" data-proximo="6">Tentar atravessar com cuidado</button>
+            <button class="btn-proximo" data-proximo="7">Procurar outro caminho ao redor</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.png">
+            <p>O mapa indica dois caminhos possíveis.</p>
+            <button class="btn-proximo" data-proximo="8"> Ir pelo caminho iluminado</button>
+            <button class="btn-proximo" data-proximo="9"> Ir pelo caminho sombrio</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p> Você descobre que o artefato está em uma caverna.</p>
+            <button class="btn-proximo" data-proximo="10"> Seguir na direção da caverna</button>
+            <button class="btn-proximo" data-proximo="7">Confirmar a localização explorando mais</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>A ponte quebra, e você cai em um rio.</p>
+            <button class="btn-proximo" data-proximo="11">Nadar até a margem direita</button>
+            <button class="btn-proximo" data-proximo="9">Nadar até a margem esquerda</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você encontra uma cabana abandonada com suprimentos.</p>
+            <button class="btn-proximo" data-proximo="10">Pegar suprimentos e continuar</button>
+            <button class="btn-proximo" data-proximo="11">Descansar na cabana</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você encontra guardiões protetores da floresta.</p>
+            <button class="btn-proximo" data-proximo="12"> Pedir ajuda </button>
+            <button class="btn-proximo" data-proximo="9">Continuar sozinho</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você enfrenta um animal selvagem.</p>
+            <button class="btn-proximo" data-proximo="12">Usar suprimentos para afastá-lo</button>
+            <button class="btn-proximo" data-proximo="11"> Fugir de volta para outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você encontra o artefato, mas a saída é bloqueada.</p>
+            <button class="btn-proximo" data-proximo="12">Procurar outra saída</button>
+            <button class="btn-proximo" data-proximo="13">Lutar para se livrar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você pisa em uma armadilha e é capturado por habitantes da floresta.</p>
+            <button class="btn-proximo" data-proximo="12">Negociar sua liberdade</button>
+            <button class="btn-proximo" data-proximo="14">Escapar sozinho</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você consegue sair da floresta com o artefato e descobre que ele é a chave para um mistério maior!</p>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Artefato recuperado.</p>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Aventura incompleta.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
